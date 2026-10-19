@@ -1,0 +1,26 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local databases and generated files
+chroma_db/
+.chromadb/
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
